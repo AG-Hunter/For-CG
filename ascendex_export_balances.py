@@ -17,9 +17,7 @@ def gen_sign():
     key = api_keys.ascendex_keys()[0]
     secret = api_keys.ascendex_keys()[1]
     timestamp = str(int(time.time() * 1000))
-    api_path = 'cash/balance'
     signature = get_signature(secret, timestamp)
-    timestamp = str(timestamp)
     headers = {"Accept": "application/json", "Content-Type": "application/json", "x-auth-key": key, "x-auth-signature": signature, "x-auth-timestamp": timestamp}
     return headers
 
