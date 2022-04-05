@@ -18,3 +18,10 @@ As above except with these two files:
   - api_keys.py
   - kucoin_export_balances.py
 
+## To use with Ascend_ex
+
+As above except with these two files:
+  - api_keys.py
+  - ascendex_export_balances.py
+
+If download does not work check the "Account Group" for your API keys. If this **is not** 4 then change the url at line 29 of the code to show the appropriate account group. 
