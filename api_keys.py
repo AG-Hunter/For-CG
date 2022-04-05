@@ -13,3 +13,8 @@ def gate_keys():
     key = ""
     secret = ""
     return key, secret
+
+def ascendex_keys():
+    key = ""
+    secret = ""
+    return key, secret
